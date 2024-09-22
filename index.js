@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://frontend2-65lf.onrender.com'
 }));
 // POST route for /bfhl
 app.post('/bfhl', (req, res) => {
